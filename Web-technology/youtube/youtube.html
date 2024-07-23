@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Youtube</title>
+    <style>
+
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 2px solid #ccc;
+        }
+        .logo {
+            margin-right: 20px;
+        }
+        .champ {
+            border: 2px solid rgb(77, 11, 153);
+            border-radius: 25px;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            border-radius: 25px;
+            border: 4px solid black;
+        }
+        .champ input[type="text"] {
+            width: 800px;
+            height: 40px;
+            border: none;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .container {
+            display: flex;
+            gap: 1px;  /* Adjust the gap between main content and right container */
+        }
+        .main-content {
+            flex: 1;
+        }
+        .right-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            flex: 1;
+            
+        }
+        .right-item {
+            display: flex;
+            margin-bottom: 2px; /* Space between each video and its description */
+        }
+        .content {
+            max-width: 400px;
+            text-align: left;
+            margin-left: 20px; /* Space between the video and its description */
+            
+        }
+        .right-image {
+            flex: 1;
+        }
+        .description {
+            margin-top: 20px;
+            text-decoration:solid;
+            
+        }
+        .bell{
+            margin-left: 450px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="logo.jpg" alt="YouTube Logo" class="logo" width="150" height="100">
+        <div class="champ">
+            <input type="text" placeholder="Search here">
+            <img src="microphone-icon-vector-illustration.jpg" class="logo" width="30" height="28">
+        </div>
+        <div class="bell">
+            <img  src="bell.png" class="logo" width="50" height="40" >
+            
+        </div>
+    <div class="create">
+        <img src="WhatsApp Image 2024-07-22 at 4.13.28 PM.jpeg" class="logo" width="35" height="28">
+    </div>
+    
+    </nav>
+   
+    <div class="container">
+        <div class="main-content">
+            <iframe width="1000" height="620" src="https://www.youtube.com/embed/I6LuJQa5jtE?si=HZ_SR5S0mCyfLDbB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="description">
+                <h5>1,284,101 views  Oct 19, 2022
+                    "PREETIYA HESARE NEENU"
+                    From the Movie 'Happy New Year'
+                    At "Folk Rock Musical Evening"
+                    By Raghu Dixit Project<br>
+                    Held on 21st August 2022
+                    In Orion Mall @ Brigade Gateway Rajajinagar, Bengaluru<br>
+                    At 60th Bengaluru Ganesh Utsava</h5>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="right-item">
+                <div class="right-image">
+                    <iframe width="400px" height="315vh" src="https://www.youtube.com/embed/_YRZ0jON6Pk?si=H5p7oWyXW9dsK0H8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="content">
+                    <p>Nanage Neenu Video Song | Chikkanna | Malaika | Smitha Umapathy | Arjun Janya | Anil Kumar | Upadhyaksha</p>
+                </div>
+            </div>
+            <div class="right-item">
+                <div class="right-image">
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/Y-yK6J9i95E?si=AkKpnAfPJOsuQgiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="content">
+                    <p>LOVE 360 | Jagave Neenu I Video Song | Sid Sriram | Praveen | Rachana Inder | Arjun Janya | Shashank</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
